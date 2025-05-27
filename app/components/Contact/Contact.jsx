@@ -18,7 +18,7 @@ const Contact = () => {
                 <input type="email" placeholder='Enter your email' className='w-full sm:w-1/2 border border-gray-400 py-2 px-4 rounded' />
             </div>
             <textarea placeholder='Your message' className='w-full border border-gray-400 py-2 px-4 rounded min-h-[300px] resize-y' />
-            <button type="submit" className='w-40 mx-auto bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition'>Send</button>
+            <button type="submit" className='w-40 mx-auto bg-black text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition'>Send</button>
         </form>
     </div>
   )
