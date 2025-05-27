@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar-section mx-auto bg-white text-black flex items-center  justify-between px-6 md:px-16  shadow-2xl py-4 dark:bg-pink-700 dark:text-black fixed w-full top-0 left-0  bg-white">
+    <nav className="navbar-section mx-auto bg-white text-black flex items-center  justify-between px-6 md:px-16  shadow-2xl py-4  fixed w-full top-0 left-0">
       <div className="navbar-logo">
       <Image src={assets.logo} alt="img" className="w-30 h-10"/>
       </div>
