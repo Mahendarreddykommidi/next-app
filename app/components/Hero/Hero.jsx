@@ -5,7 +5,7 @@ import { Ovo } from 'next/font/google'
 
 const Hero = () => {
   return (
-    <div className='header-section flex flex-col h-screen items-center my-30  '>
+    <div className='header-section flex flex-col h-screen items-center my-24  '>
         <div className="header-image">
             <Image src={assets.profile_img} className='max-w-3xl'/>
 
