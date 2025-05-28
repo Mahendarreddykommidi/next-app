@@ -25,7 +25,7 @@ const About = () => {
             
          
        
-            <p className='text-lg max-w-[700px]'>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career,
+            <p className='text-lg max-w-2xl flex flex-wrap'>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career,
                  I have had the privilege of collaborating with prestigious organizations, 
                  contributing to their success and growth.</p>
             
@@ -46,7 +46,7 @@ const About = () => {
           </div>
           <ul>
             <h4>Tools i use</h4>
-            <li className='flex items-center gap-10 my-5'>
+            <li className='flex items-center gap-4 md:gap-6 my-5 mx-auto'>
               {toolsData.map((tool,index)=>{
                 return (
                   <div key={index} className='border border-gray-400 w-15 h-15 flex items-center justify-center'>
